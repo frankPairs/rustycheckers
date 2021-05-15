@@ -1,0 +1,12 @@
+[package]
+name = "rustycheckers"
+version = "0.1.0"
+authors = ["Frank Parejo <francisco.parejo.lopez@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+mut_static = "5.0.0"
+lazy_static = "1.4.0"
